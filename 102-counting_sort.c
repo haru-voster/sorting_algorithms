@@ -1,6 +1,5 @@
 #include "sort.h"
 #include <stdio.h>
-# haru-voster
 /**
  * _bigest -  Give me the largest number in a array of integers
  * @array: The Int array
@@ -10,15 +9,15 @@
 int _bigest(int *array, size_t size)
 {
 	size_t a;
-	int i = 0;
+	int b = 0;
 
 	for (a = 0; a < size; a++)
 	{
-		if (i < array[a])
-			i = array[a];
+		if (b < array[a])
+			b = array[a];
 	}
 
-	return (i);
+	return (b);
 }
 /**
  * _memset -  Create a integer array and set each space in 0
